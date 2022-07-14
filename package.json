@@ -1,14 +1,18 @@
 {
   "name": "dom-drective",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "license": "MIT",
+  "main": "src/plugin.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name dom-drective --dest lib src/plugin.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "dom-drective": "^0.1.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {

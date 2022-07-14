@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import DomDrective from './plugin.js'
+import DomDrective from 'dom-drective'
 
 Vue.config.productionTip = false
 
